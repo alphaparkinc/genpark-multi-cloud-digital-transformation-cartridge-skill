@@ -1,0 +1,38 @@
+{
+  "name": "genpark-multi-cloud-digital-transformation-cartridge-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Multi-cloud digital transformation and commerce cartridge integration engine uniting Commerce Cloud, Marketing Cloud, and AI agents.",
+  "author": "genpark",
+  "category": "digital-transformation",
+  "tags": [
+    "digital-transformation",
+    "salesforce-commerce",
+    "multi-cloud",
+    "cartridge-integrations",
+    "osf-digital"
+  ],
+  "inputs": {
+    "brand_ecosystem": {
+      "type": "string"
+    },
+    "cloud_integrations": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "integration_audit_id": {
+      "type": "string"
+    },
+    "integrated_cloud_pillars": {
+      "type": "array"
+    },
+    "cartridge_time_to_market_weeks": {
+      "type": "integer"
+    },
+    "omnichannel_pos_order_routing_unified": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
